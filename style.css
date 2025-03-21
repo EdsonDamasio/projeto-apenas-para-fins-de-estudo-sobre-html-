@@ -1,0 +1,33 @@
+.protocolo, .protocol{
+    display: flex;
+    flex-direction: row;
+}
+.protocolo {
+    background-color: rgb(0, 46, 252);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.protocolo img {
+    width: 60px;
+    height: 60px;
+}
+.protocol {
+    gap: 10em;
+    margin: auto;
+}
+.protocol a{
+    font-size: 2em;
+    font-family: fantasy;
+    text-decoration: none;
+}
+.protocol a:hover{
+    transform: scale(1,2);
+    color: black;
+}
+
+body{
+    background-color: rgb(0, 195, 255);
+}
+
